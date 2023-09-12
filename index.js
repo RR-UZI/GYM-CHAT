@@ -5,7 +5,10 @@ var socket = require('socket.io');
 //App setup
 
 var app = express();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 131a290 (nuevos cambios)
 const port = process.env.PORT || 4000;
 
 var server = app.listen(port,function(){
