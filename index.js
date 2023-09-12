@@ -5,14 +5,10 @@ var socket = require('socket.io');
 //App setup
 
 var app = express();
-<<<<<<< HEAD
 
 const port = process.env.PORT || 4000;
 
 var server = app.listen(port,function(){
-=======
-var server = app.listen(4000,function(){
->>>>>>> 5c3e886 (f)
     console.log('liseting to request on port 4000')
 });
 
