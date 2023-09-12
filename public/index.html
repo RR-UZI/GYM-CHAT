@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <title>Gym Bro's CHAT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   
+   
+    <div id="gymbro-chat">
+        <div class="img">
+            <img src="/images/pesoLigero.png" alt="">
+        </div>
+        <h2>Gym Bro's CHAT</h2>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input id="handle" type="text" placeholder="Nombre" />
+        <input id="message" type="text" placeholder="Mensaje" />
+        <button id="send">Enviar</button>
+    </div>
+    
+    <script src="/chat.js"></script>
+</body>
+</html>
